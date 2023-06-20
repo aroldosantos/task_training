@@ -1,17 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
+use App\Http\Livewire\User\{
+        UserTable,
+        UserCreate,
+        UserUpdate
+    };
 
 Route::get('/', function () {
     return view('welcome');
@@ -25,4 +19,13 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+
+    // Users routers
+    Route::get('users', UserTable::class)->name('users');
+    Route::get('users/create', UserCreate::class)->name('users.create');
+    Route::get('users/{id}', UserUpdate::class)->name('users.update')->where('id', '[0-9]+');  
+    
+    
+
+
 });
