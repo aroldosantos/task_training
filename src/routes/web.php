@@ -8,7 +8,8 @@ use App\Http\Livewire\User\{
     };
 use App\Http\Livewire\Classroom\{
         ClassroomTable,
-        ClassroomCreate
+        ClassroomCreate,
+        ClassroomUpdate
 };
 
 Route::get('/', function () {
@@ -32,5 +33,6 @@ Route::middleware([
     // Users classroons
     Route::get('classrooms', ClassroomTable::class)->name('classrooms');
     Route::get('classrooms/create', ClassroomCreate::class)->name('classrooms.create');
+    Route::get('classrooms/{id}', ClassroomUpdate::class)->name('classrooms.update')->where('id', '[0-9]+');  ;
 
 });

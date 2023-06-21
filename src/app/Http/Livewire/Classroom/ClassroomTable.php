@@ -32,7 +32,7 @@ class ClassroomTable extends TableComponent
             Column::make('Cód','id')->searchable()->sortable(),
             Column::make('Classe','name')->searchable()->sortable(),
             Column::make('Lotação','capacity')->searchable()->sortable(),
-            Column::make('Operações')->view('livewire.user.users-links-table'),
+            Column::make('Operações')->view('livewire.classroom.classroom-links-table'),
         ];
     }
 }
