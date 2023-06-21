@@ -16,6 +16,7 @@ src/npm-debug.log
 src/yarn-error.log
 src/.DS_Store
 src/app/.DS_Store
+src/resources/views/livewire/.DS_Store
 /.fleet
 /.idea
 /.vscode
