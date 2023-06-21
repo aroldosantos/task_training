@@ -15,7 +15,7 @@ class ClassroomTable extends TableComponent
     public $tb_title = 'Listagem de classes';
     public $tb_desc = 'Classes cadastradas no sistema.';
     public $btn_create = 'Nova classe';
-    public $btn_create_href = 'users.create';
+    public $btn_create_href = 'classrooms.create';
     public $router = 'dashboard';
     public $infoset;
     public $route_parameter;
