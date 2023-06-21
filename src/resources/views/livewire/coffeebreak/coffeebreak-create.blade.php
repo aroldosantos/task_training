@@ -74,7 +74,7 @@
                                                         name="name"
                                                         type="text"
                                                         class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-yellow-500 focus:border-yellow-500 focus:z-10 sm:text-sm"
-                                                        placeholder="Digite o nome da classe">
+                                                        placeholder="Digite o nome do espaço">
                                                     @error('name') <span class="error text-red-700">{{ $message }}</span> @enderror
                                                 </div>
                                                 <div>
@@ -85,7 +85,7 @@
                                                         name="capacity"
                                                         type="text"
                                                         class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-yellow-500 focus:border-yellow-500 focus:z-10 sm:text-sm"
-                                                        placeholder="Digite a lotação da classe">
+                                                        placeholder="Digite a lotação do espaço">
                                                     @error('capacity') <span class="error text-red-700">{{ $message }}</span> @enderror
                                                 </div>
                                             </div>
