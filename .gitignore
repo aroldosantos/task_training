@@ -14,7 +14,9 @@ src/Homestead.yaml
 src/auth.json
 src/npm-debug.log
 src/yarn-error.log
+src/.DS_Store
+src/app/.DS_Store
 /.fleet
 /.idea
 /.vscode
-/.DS_Store
+.DS_Store
