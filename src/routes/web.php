@@ -16,6 +16,11 @@ use App\Http\Livewire\Coffeebreak\{
         CoffeebreakCreate,
         CoffeebreakUpdate
 };
+use App\Http\Livewire\Customer\{
+        CustomerTable,
+        CustomerCreate,
+        CustomerUpdate
+};
 
 Route::get('/', function () {
     return view('welcome');
@@ -44,5 +49,10 @@ Route::middleware([
     Route::get('coffeebreaks', CoffeebreakTable::class)->name('coffeebreaks');
     Route::get('coffeebreaks/create', CoffeebreakCreate::class)->name('coffeebreaks.create');
     Route::get('coffeebreak/{id}', CoffeebreakUpdate::class)->name('coffeebreaks.update')->where('id', '[0-9]+');  ;
+
+    // Customers routers
+    Route::get('customers', CustomerTable::class)->name('customers');
+    Route::get('customers/create', CustomerCreate::class)->name('customers.create');
+    Route::get('customers/{id}', CustomerUpdate::class)->name('customers.update')->where('id', '[0-9]+');  ;
 
 });
