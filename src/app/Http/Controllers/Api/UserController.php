@@ -37,17 +37,13 @@ class UserController extends Controller
 
     }
 
-    public function show($id)
+    public function show(string $id)
     {
         $user = $this->user->findOrfail($id);
-
-        // if ($user === null) {
-        //     return response()->json(['error' => 'O recurso procurado não existe'], 404);
-        // }
         return response()->json($user);
     }
 
-    public function update(StoreUpdateUserRequest $request, $id)
+    public function update(StoreUpdateUserRequest $request, string $id)
     {
 
         $user = $this->user->findOrFail($id);
@@ -64,7 +60,7 @@ class UserController extends Controller
 
     }
 
-    public function destroy($id)
+    public function destroy(string $id)
     {
         return response()->json(['error' => 'O recurso não está desabilitado.'], 404);
 
