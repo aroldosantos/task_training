@@ -91,15 +91,15 @@ class UserUpdate extends Component
     public function messages(): array
     {
         return [
-            'name.required'  => 'O Campo nome é de preenchimento obrigatório.',
-            'name.min'  => 'O Campo nome deve ter mais de 3 caracteres.',            
-            'email.required'  => 'O Campo email é de preenchimento obrigatório.',
-            'email.unique'  => 'O email informado já está em uso.',
-            'email.email'  => 'Digite um email válido.',
-            'password.required'  => 'O Campo senha é de preenchimento obrigatório.',
-            'password.min'  => 'O Campo senha deve ter no mínimo 8 caracteres.',
-            'password.required'  => 'O Campo senha é de preenchimento obrigatório.',
-            'password.confirmed'  => 'Confirme sua senha.',
+            'name.required' => 'O Campo nome é de preenchimento obrigatório.',
+            'name.min' => 'O Campo nome deve ter mais de 3 caracteres.',
+            'email.required' => 'O Campo email é de preenchimento obrigatório.',
+            'email.unique' => 'O email informado já está em uso.',
+            'email.email' => 'Digite um email válido.',
+            'password.required' => 'O Campo senha é de preenchimento obrigatório.',
+            'password.min' => 'O Campo senha deve ter no mínimo 8 caracteres.',
+            'password.required' => 'O Campo senha é de preenchimento obrigatório.',
+            'password.confirmed' => 'Confirme sua senha.',
         ];
     }
 
