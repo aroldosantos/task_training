@@ -37,6 +37,16 @@ class UserController extends Controller
 
     }
 
+    public function show($id)
+    {
+        $user = $this->user->findOrfail($id);
+
+        // if ($user === null) {
+        //     return response()->json(['error' => 'O recurso procurado não existe'], 404);
+        // }
+        return response()->json($user);
+    }
+
     public function update(StoreUpdateUserRequest $request, $id)
     {
 
