@@ -21,6 +21,11 @@ use App\Http\Livewire\Customer\{
         CustomerCreate,
         CustomerUpdate
 };
+use App\Http\Livewire\Inscription\{
+        InscriptionTable,
+        InscriptionCreate,
+        // InscriptionUpdate
+};
 
 Route::get('/', function () {
     return view('welcome');
@@ -54,5 +59,9 @@ Route::middleware([
     Route::get('customers', CustomerTable::class)->name('customers');
     Route::get('customers/create', CustomerCreate::class)->name('customers.create');
     Route::get('customers/{id}', CustomerUpdate::class)->name('customers.update')->where('id', '[0-9]+');  ;
+
+    // Inscriptions routers
+    Route::get('inscriptions', InscriptionTable::class)->name('inscriptions');
+    Route::get('inscriptions/create', InscriptionCreate::class)->name('inscriptions.create');
 
 });

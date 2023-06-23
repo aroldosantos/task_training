@@ -17,12 +17,7 @@
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link href="{{ route('users') }}" :active="request()->routeIs('users*')">
-                        {{ __('Usuários') }}
-                    </x-nav-link>
-                </div>
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link href="{{ route('users') }}" :active="request()->routeIs('classroons*')">
+                    <x-nav-link href="{{ route('classrooms') }}" :active="request()->routeIs('classrooms*')">
                         {{ __('Classes') }}
                     </x-nav-link>
                 </div>
@@ -32,8 +27,18 @@
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link href="{{ route('users') }}" :active="request()->routeIs('inscriptions*')">
+                        {{ __('Inscrições') }}
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link href="{{ route('customers') }}" :active="request()->routeIs('customers*')">
                         {{ __('Pessoas') }}
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link href="{{ route('users') }}" :active="request()->routeIs('users*')">
+                        {{ __('Usuários') }}
                     </x-nav-link>
                 </div>
             </div>
