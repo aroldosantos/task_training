@@ -25,7 +25,7 @@ class CoffeebreakController extends Controller
 
         if ($validatedData) {
 
-            $coffeebreak = new coffeebreak();
+            $coffeebreak = new Coffeebreak();
 
             $coffeebreak->name = $request->name;
             $coffeebreak->capacity = $request->capacity;
