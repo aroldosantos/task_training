@@ -5,7 +5,8 @@ use App\Http\Controllers\Api\{
     AuthController,
     UserController,
     ClassroomController,
-    CoffeebreakController
+    CoffeebreakController,
+    CustomerController
 };
 
 
@@ -17,5 +18,6 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::apiResource('users', UserController::class);
     Route::apiResource('classrooms', ClassroomController::class);
     Route::apiResource('coffeebreaks', CoffeebreakController::class);
+    Route::apiResource('customers', CustomerController::class);
     
 });  
