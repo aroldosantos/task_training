@@ -8,9 +8,9 @@
 ### This readme file will be updated as the project progresses.
 
 ## WATCH THE EVIDENCE VIDEO:
-- web ( [Clique para assistir](https://drive.google.com/file/d/14-LZbR99u2KhUTO_hbXF2D18UljmPzjh/view?usp=share_link) )
+- web ( [Click to watch](https://drive.google.com/file/d/14-LZbR99u2KhUTO_hbXF2D18UljmPzjh/view?usp=share_link) )
 
-- API ( [Clique para assistir](https://drive.google.com/file/d/13eeoQkf5C8OYynC3qToPHgkwniPzbkVg/view?usp=share_link) )
+- API ( [Click to watch](https://drive.google.com/file/d/13eeoQkf5C8OYynC3qToPHgkwniPzbkVg/view?usp=share_link) )
 
 
 
