@@ -14,6 +14,8 @@ Laravel 10.x requires a minimum PHP version of 8.1.
 
 Docker needs to be installed on the machine.
 
+Node needs to be installed on the machine.
+
 ## Project installation
 
 **Obtaining the source code**
@@ -77,7 +79,7 @@ TABLE_CHECKBOX=false
 
 This command will both create tables in the database and populate these tables with fake data.
 
-Open another terminal window, outside of docker, enter the folder ``task_training`` and run the commands:
+Open another terminal window, outside of docker, enter the folder ``task_training/src/`` and run the commands:
 
 
 `` $ npm install``
