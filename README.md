@@ -113,7 +113,7 @@ Using an http client like Postman, use the resources and body as below:
 }``
 
 - URL: ``http://localhost:8000/api/classrooms``
-- HTTP VERBS: GET, POST, PATCH, DELETE.
+- HTTP VERBS: GET, POST, PUT, DELETE.
 - BODY: ``{
     "name": "Class Name Example 01",
     "capacity": 35
@@ -121,14 +121,14 @@ Using an http client like Postman, use the resources and body as below:
 
 
 - URL: ``http://localhost:8000/api/coffeebreaks``
-- HTTP VERBS: GET, POST, PATCH, DELETE.
+- HTTP VERBS: GET, POST, PUT, DELETE.
 - BODY: ``{
     "name": "Coffeebreak Space Name Example 01",
     "capacity": 35 
 }``
 
 - URL: ``http://localhost:8000/api/customers``
-- HTTP VERBS: GET, POST, PATCH, DELETE.
+- HTTP VERBS: GET, POST, PUT, DELETE.
 - BODY: ``{
     "name": "Customer",
     "surname": "Example 01",
@@ -136,7 +136,7 @@ Using an http client like Postman, use the resources and body as below:
 }``
 
 - URL: ``http://localhost:8000/api/users``
-- HTTP VERBS: GET, POST, PATCH, DELETE.
+- HTTP VERBS: GET, POST, PUT, DELETE.
 - BODY: ``{
     "name": "Test Example 2",
     "email": "test2@example.com",
@@ -145,7 +145,7 @@ Using an http client like Postman, use the resources and body as below:
 }``
 
 - URL: ``http://localhost:8000/api/inscriptions``
-- HTTP VERBS: GET, POST, PATCH, DELETE.
+- HTTP VERBS: GET, POST, PUT, DELETE.
 - BODY: ``{
     "classroom_id": "1",
     "coffeebreak_id": "1",
