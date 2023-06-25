@@ -1,12 +1,17 @@
 
-A simple exercise using Laravel 10.
+
+![Escreenshot sistema](https://lh3.googleusercontent.com/drive-viewer/AFGJ81qfXVv7_hrI4QCUQcm6SU_kSTwPFGieHCqHuBpFAAEP9d1VxPSLq9CczZNfCcLgjvnmsCynLOGxfufn3AjZLdF8KbK2UQ=s1600)
+
+# A simple exercise using Laravel 10
 
 ### WARNING: This repository is still under development.
 ### This readme file will be updated as the project progresses.
 
 ## WATCH THE EVIDENCE VIDEO:
-- web -> 
-- API -> 
+- web ( [Clique para assistir](https://drive.google.com/file/d/14-LZbR99u2KhUTO_hbXF2D18UljmPzjh/view?usp=share_link) )
+
+- API ( [Clique para assistir](https://drive.google.com/file/d/13eeoQkf5C8OYynC3qToPHgkwniPzbkVg/view?usp=share_link) )
+
 
 
 ## Minimum requirements
